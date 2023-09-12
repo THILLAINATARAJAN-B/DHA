@@ -1,0 +1,25 @@
+.parentSpace {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+}
+.left {
+grid-row: 1;
+grid-column: 1;
+grid-template-rows: 2;
+text-align: left;
+padding: 5px;
+}
+.center {
+grid-column: 2;
+text-align: center;
+padding: 5px;
+}
+.right {
+grid-column: 3;
+text-align: right;
+padding: 5px;
+}
+.t_cent{
+    grid-row: 1;
+}
